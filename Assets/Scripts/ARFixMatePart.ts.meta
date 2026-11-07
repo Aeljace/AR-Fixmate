@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/306572df-33c9-4639-b5a2-51d19fe6e1dc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8bf036a6-9ed9-4dea-8d9e-60ebca3e0a95
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8bf036a6-9ed9-4dea-8d9e-60ebca3e0a95
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fe9cf298-6e9f-4e31-9017-299e6f4c03ef
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fe9cf298-6e9f-4e31-9017-299e6f4c03ef>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: d00ad79e-18ce-4ac8-82e5-000c6bc6f0ed
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    kind: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - kind: !<float> 0.000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float kind {"hint":"0 bolt, 1 washer, 2 nut"}'
+    - '// @input Asset.Material material {"hint":"Metal material generated from SimplePBR preset"}'

@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/d4c865f7-fe57-4fb7-81f7-ac9029bd42f5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4cf2f398-edc3-476b-8981-1b6c6ed38812
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4cf2f398-edc3-476b-8981-1b6c6ed38812
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b5bcfbfa-f4e7-46c0-9c07-adaf936af30d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b5bcfbfa-f4e7-46c0-9c07-adaf936af30d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 052ac9fd-3b0f-4820-8f0a-b167c14438a6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accent: false
+    brand: false
+    panelWidth: false
+    tutorialRoot: false
+    welcomeRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - welcomeRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tutorialRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panelWidth: !<float> 46.000000
+      brand: AR FixMate
+      accent: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject welcomeRoot {"hint":"Existing welcome root"}'
+    - '// @input SceneObject tutorialRoot {"hint":"Existing inspection panel root"}'
+    - '// @input float panelWidth = 46 {"hint":"Panel width in cm"}'
+    - '// @input string brand = "AR FixMate" {"hint":"Application name"}'
+    - '// @input vec4 accent {"hint":"Accent color", "widget":"color"}'

@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/1a338a2d-01ad-4871-be96-649dc000a7df>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b94363d5-63bb-432c-86d3-cf43ec8da6bf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b94363d5-63bb-432c-86d3-cf43ec8da6bf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e070466b-6938-4a2f-9efd-46e482da11da
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e070466b-6938-4a2f-9efd-46e482da11da>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 398118ae-f8de-4b43-8bc2-eb5f3be0db85
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bolt: false
+    cameraObject: false
+    duration: false
+    nut: false
+    ui: false
+    washer: false
+    workspace: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      workspace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bolt: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      washer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      nut: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      duration: 1.600000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input AssignableType_1 ui {"hint":"Existing UIKit UI"}'
+    - '// @input SceneObject workspace {"hint":"Existing workspace"}'
+    - '// @input SceneObject cameraObject {"hint":"Tracked camera"}'
+    - '// @input SceneObject bolt {"hint":"Existing sample bolt"}'
+    - '// @input SceneObject washer {"hint":"Existing sample washer"}'
+    - '// @input SceneObject nut {"hint":"Existing sample nut"}'
+    - '// @input float duration = 1.6 {"hint":"Legacy assembly duration retained"}'
